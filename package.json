@@ -12,13 +12,13 @@
       "require": "./dist/index.cjs"
     }
   },
-
+  "homepage": "https://mochimilk.github.io/coral-datavis",
   "scripts": {
     "dev": "vite",
     "start": "vite",
     "build": "vite build",
     "predeploy": "vite build",
-"deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "peerDependencies": {
     "@fluentui/react-components": "9.56.7",
@@ -60,6 +60,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "gh-pages": "^6.3.0",
     "isomorphic-fetch": "^3.0.0",
     "openai": "^4.85.3",
     "pg": "^8.13.3",
