@@ -1,7 +1,6 @@
 {
-  "name": "@ctocoral/react-components",
+  "name": "coral-datavis",
   "version": "1.0.19",
-  "description": "A set of reusable React components for the Coral design system.",
   "main": "./dist/index.cjs",
   "types": "./dist/index.d.ts",
   "type": "module",
